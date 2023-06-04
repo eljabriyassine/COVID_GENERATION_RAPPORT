@@ -2,7 +2,7 @@ import React from 'react';
 import Banner from '../Bannner/Banner';
 import Details from '../Details/Details';
 
-const Dentist = () => {
+const Doctor = () => {
     return (
         <>
             <Banner />
@@ -11,4 +11,4 @@ const Dentist = () => {
     );
 };
 
-export default Dentist;
+export default Doctor;

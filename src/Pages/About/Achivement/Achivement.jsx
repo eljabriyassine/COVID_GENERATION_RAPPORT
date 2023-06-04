@@ -1,5 +1,3 @@
-import { faPlayCircle } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -24,18 +22,10 @@ const Achivement = () => {
                 well-being.
               </p>
               <div className="more-tool">
-                <Link to="/login">
-                  <button className="theme-btn btn-fill">Appointment</button>
+                <Link to="/covidCheck">
+                  <button className="theme-btn btn-fill">covid-check</button>
                 </Link>
-                <a
-                  href="https://www.youtube.com/watch?v=7HhdN9_MgE8"
-                  className="watchBtn"
-                >
-                  <button className="theme-btn btn-unfill">
-                    <FontAwesomeIcon className="play-btn" icon={faPlayCircle} />
-                    <span>Watch Video</span>
-                  </button>
-                </a>
+               
               </div>
             </div>
           </Col>

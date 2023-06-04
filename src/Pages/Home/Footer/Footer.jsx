@@ -41,12 +41,13 @@ const Footer = () => {
                                 <h2>Services</h2>
                             </div>
                             <div className="widget-content">
-                                <NavLink className="footer-link">Dental Dictionary</NavLink>
-                                <NavLink className="footer-link">Dental Sealands</NavLink>
-                                <NavLink className="footer-link">Dental Implants</NavLink>
-                                <NavLink className="footer-link">General Dentistry</NavLink>
-                                <NavLink className="footer-link">Sedation Dentistry</NavLink>
+                                <NavLink className="footer-link" to="/covid-dictionary">COVID-19 Dictionary</NavLink>
+                                <NavLink className="footer-link" to="/covid-prevention">COVID-19 Prevention</NavLink>
+                                <NavLink className="footer-link" to="/covid-testing">COVID-19 Testing</NavLink>
+                                <NavLink className="footer-link" to="/covid-vaccination">COVID-19 Vaccination</NavLink>
+                                <NavLink className="footer-link" to="/covid-symptoms">COVID-19 Symptoms</NavLink>
                             </div>
+
                         </div>
                     </Col>
                     <Col xs={6} md={3}>
@@ -55,11 +56,11 @@ const Footer = () => {
                                 <h2>Our Address</h2>
                             </div>
                             <div className="widget-content">
-                                <NavLink className="footer-link">Datobbo Dentistry 5212 Cedar</NavLink>
-                                <NavLink className="footer-link">Village Dr Mason, NY.</NavLink>
-                                <NavLink className="footer-link">Phone:+1 3500 5867 340</NavLink>
-                                <NavLink className="footer-link">Email:yourdomain@gmail.com</NavLink>
-                                <NavLink className="footer-link">Fax:+1 675 5867 340</NavLink>
+                                <NavLink className="footer-link">Faculté des Sciences et Techniques</NavLink>
+                                <NavLink className="footer-link">Av. Abdelkarim Elkhattabi, Guéliz Marrakech</NavLink>
+                                <NavLink className="footer-link">Phone:(+212) 524 43 34 04</NavLink>
+                                <NavLink className="footer-link">Email:contact@fstg-marrakech.com</NavLink>
+                                <NavLink className="footer-link">Fax:(+212) 524 43 31 70</NavLink>
                             </div>
                         </div>
                     </Col>

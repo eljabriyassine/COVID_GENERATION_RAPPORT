@@ -20,12 +20,9 @@ const Banner = () => {
                 assist you with any dental concerns.
               </p>
               <div className="banner-btn m-sm-auto">
-                <Link to="/login">
-                  <button className="theme-btn btn-fill">
-                    Schedule an Appointment
-                  </button>
+                <Link to="/covidCheck">
+                  <button className="theme-btn btn-fill">CovidCheck</button>
                 </Link>
-                
               </div>
             </div>
           </Col>
